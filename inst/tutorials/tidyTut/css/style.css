@@ -4,12 +4,18 @@ body{
     font-size: 11pt;
   }
   /* Headers */
-  h1,h2,h3{
-    font-size: 15pt;
+  h1,h2{
+    font-size: 16pt;
+    color: Green;
+  }
+  h3{
+    font-size: 14pt;
+    color: Navy;
   }
 
   h4,h5,h6{
-    font-size: 12pt;
+    font-size: 13pt;
+    color: Black;
   }
   .panel-default > .panel-heading {
     color: white;
