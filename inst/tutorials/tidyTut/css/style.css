@@ -12,8 +12,19 @@ body{
     font-size: 14pt;
     color: Navy;
   }
+  h6{
+    font-size: 11pt;
+    color: Black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h7{
+    font-size: 11pt;
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic
+  }
 
-  h4,h5,h6{
+  h4,h5{
     font-size: 13pt;
     color: Black;
   }

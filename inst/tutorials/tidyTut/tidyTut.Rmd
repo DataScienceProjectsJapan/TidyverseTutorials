@@ -16,26 +16,24 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(nycflights13)
 ```
-<font size="2">
-This tutorial was written by the following students at Ritsumeikan Asia Pacific University in Japan as part of a seminar project under the supervision of Prof. William Claster. To collaborate please contact us.
+
+###### This tutorial was written by the following students at Ritsumeikan Asia Pacific University in Japan as part of a seminar project under the supervision of Prof. William Claster. To collaborate please contact us.
 
 <!-- ![picture](images/MC4ML.JPG) <img src="images/MC4ML.JPG" alt="drawing" style="width:80px;" /> -->
 
 
 <!-- [![RProgramming](./images/MC4ML.JPG style="width:80px;" "Mathematics and Programming for Machine Learning with R")](https://www.amazon.com/Mathematics-Programming-Machine-Learning-R/dp/0367507854/ref=sr_1_1?crid=7Y7JVLAZ72TE&dchild=1&keywords=william+claster&qid=1630329202&sprefix=william+Claster%2Caps%2C358&sr=8-1) -->
+<font size="2">
 
-
-Kamal Al-Tway (KA), 
-Dang Ngo (DN), 
-Soujanya Dash (SD), 
-Yuji Yamaguchi (YY)
+###### Kamal Al-Tway (KA), Dang Ngo (DN), Soujanya Dash (SD), Yuji Yamaguchi (YY)
 
 
 
-To learn to program machine learning algorithms from scratch in R consider William Claster's [Mathematics and Programming for Machine Learning with R](https://www.amazon.com/Mathematics-Programming-Machine-Learning-R/dp/0367507854/ref=sr_1_1?crid=7Y7JVLAZ72TE&dchild=1&keywords=william+claster&qid=1630329202&sprefix=william+Claster%2Caps%2C358&sr=8-1)  
+###### To learn to program machine learning algorithms from scratch in R consider William Claster's [Mathematics and Programming for Machine Learning with R](https://www.amazon.com/Mathematics-Programming-Machine-Learning-R/dp/0367507854/ref=sr_1_1?crid=7Y7JVLAZ72TE&dchild=1&keywords=william+claster&qid=1630329202&sprefix=william+Claster%2Caps%2C358&sr=8-1)  
 </font> 
 
-###### Do as many of the exercises as you like
+####### Do as many of the exercises as you like
+
 ## Section 3.2.4
 
 ### 3.2.4 Easy SD
