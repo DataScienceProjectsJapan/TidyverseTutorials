@@ -86,7 +86,6 @@ gradethis::grade_this_code()
 
 ### 3.3.1 Easy DN
 
-#### Exercise 1 DN
 
 Write the R code for putting mpg dataset into a mpg dataframe
 
@@ -102,7 +101,6 @@ mpg<- data.frame(mpg)
 gradethis::grade_this_code()
 ```
 
-#### Exercise 2 DN
 
 Write the R code for Viewing the mpg tibble
 ```{r D2, exercise=TRUE}
@@ -194,7 +192,6 @@ gradethis::grade_this_code()
 
 ###  3.3.1 Intermediate DN
 
-#### Exercise 12 DN
 Refer to the mpg data set.  
 
 Plot a geom_point graph with displ on x-axis, hwy on y-axis, and map the shape of points to drv
@@ -215,7 +212,7 @@ gradethis::grade_this_code()
 ```
 
 
-#### Exercise 13 DN
+
 
 ```{r D13}
 quiz(
@@ -317,7 +314,6 @@ quiz(
 
 ### 3.3.1 Advanced DN  
 
-#### Exercise 23 DN
 
 Divide mpg dataframe into 2 halves and plot 2 separate geom_point graphs  with displ on x-axis and hwy on y-axis  respectively.
 **Note**:"spliting the mpg dataframe requires floor(), set.seed(), sample(), seq(). You many want to get help on this functions first". Also, note we are getting a random sample for each of the 2 halves.
@@ -490,7 +486,7 @@ gradethis::grade_this_code()
 
 ### 3.6.1 Easy DN
 
-#### Exercise 3 DN
+
 
 ```{r D3}
 quiz(
@@ -503,7 +499,7 @@ quiz(
 )
 ```
 
-#### Exercise 4 DN
+
 
 ```{r D4}
 quiz(
@@ -559,7 +555,6 @@ ggplot(data = mpg) +
 "nrow means number of the rows "
 ```
 
-#### Exercise 2  
 
 ```{r quiz236}
 question("What does geom_smooth do?",
@@ -603,7 +598,6 @@ gradethis::grade_this_code()
 
 ### 3.6.1 Intermediate DN
 
-#### Exercise 14 DN
 
 In spite of the fact that the graph below may actually obscure the relationship between the displ and hwy, as an exercise recreate the R code necessary to generate the following graph.
 ```{r D14-graph}
@@ -640,8 +634,6 @@ question("Instead of connecting every point as was shown above, what might bette
 )
 ```
 
-
-#### Exercise 15 DN
 
 Recreate the R code necessary to generate the following graphs
 ```{r D15-graph}
@@ -747,7 +739,6 @@ gradethis::grade_code()
 ```
 
 ### 3.6.1 Intermediate YY
-#### Exercise 3
 
 Change the variable that is assigned to linetype to "cyl" and predict what will be created before run the code. Below you can see the results of the current code.
 ```{r 336, exercise=TRUE, exercise.eval=TRUE}
@@ -764,7 +755,7 @@ ggplot(data = mpg) +
 ```{r 336-check}
 gradethis::grade_code()
 ```
-#### Exercise 4
+
 Add the minimum code to allow this to run using displ for x and hwy for y
 
 ```{r 436, exercise=TRUE}
@@ -787,7 +778,6 @@ gradethis::grade_code()
 
 ### Advanced 3.6.1 DN
 
-#### Exercise 24 DN
 
 Refer to the mpg dataset.  
 
@@ -856,7 +846,6 @@ question("Comparing the 2 above graphs, notice how the second one \"obscures\" t
 
 ```
 ### 3.6.1 Challenging  YY
-#### Exercise 5
 
 Create the graphs below.
 
@@ -902,7 +891,7 @@ question("Which is the best explanation for the previous answer?",
 ## Section 3.7.1
 
 ### 3.7.1 Easy YY
-#### Exercise 1
+
 
 In this exercise we are going to use new dataset called diamonds.
 Run the code to get to know diamonds. (note that View(diamonds) will show you the dataset but here we are thinking of another way to explore the dataset)
@@ -919,7 +908,6 @@ Run the code to get to know diamonds. (note that View(diamonds) will show you th
 gradethis::grade_code()
 ```
 
-#### Exercise 2  
 
 ```{r quiz37}
 question("According to the text, which kind of graph computes a robust summary of the distribution and displays it as a specially formatted box?",
@@ -991,7 +979,6 @@ quiz(
 
 
 ### 3.7.1 Intermediate YY
-#### Exercise 3
 
 There are two functions for creating barcharts that are quite similar: geom_bar() and geo_col(). Typically geo_bar() will work with just one column of data. For example, in the diamonds dataset, we could work with just the column called 'cut'. The levels of that column can be seen by running levels(diamonds$cut). This shows that there are 5 unique values: 
 "Fair"      "Good"      "Very Good" "Premium"   "Ideal"
@@ -1053,7 +1040,6 @@ gradethis::grade_code()
 <!-- ) -->
 <!-- ``` -->
 ### 3.7.1 Challenging  YY
-#### Exercise 5
 
 Create the graphs below.(Top and bottom of each line and each point means max value, minimum value and median respectively.)
 
@@ -1102,7 +1088,6 @@ ggplot(data = iris,aes(x=Sepal.Length))+geom_histogram(binwidth = 0.1) + facet_w
 
 ### Easy 5.2.4 DN
 
-#### Exercise 5 DN
 
 ```{r flights524dn}
 head(flights)
@@ -1154,7 +1139,7 @@ gradethis::grade_code()
 
 
 ### 5.2.4 Easy YY
-#### Exercise 1
+
 
 In this exercise, we are going to use filter(). Run the code below (without the quotation marks) to explore the filter function.
 
@@ -1190,7 +1175,6 @@ gradethis::grade_this_code()
 
 ### Intermediate 5.2.4 DN  
 
-#### Exercise 16 DN  
 
 Refer to flights dataset.
 Find all flights with missing dep_delay, and arr_delay  
@@ -1233,7 +1217,7 @@ gradethis::grade_code()
 ```
 
 ### 5.2.4 Intermediate YY
-#### Exercise 2
+
 
 Find all flights that depart from LGA and EWR
 ```{r 352, exercise=TRUE, exercise.eval=TRUE}
@@ -1281,7 +1265,6 @@ gradethis::grade_this_code()
 
 ### Advanced 5.2.4 DN  
 
-#### Exercise 25 DN  
 
 Refer to flights dataset.
 Find all flights that belong to Mesa Airlines, Hawaiian Airlines, and Alaska Airlines
@@ -1322,7 +1305,7 @@ gradethis::grade_code()
 ```
 
 ### 5.2.4 Challenging  YY
-#### Exercise 3
+
 
 Identify the same set of flights that code below selects but using R's not operator: !
 ```{r 552, exercise=TRUE, exercise.eval=TRUE}
@@ -1361,7 +1344,6 @@ gradethis::grade_this_code()
 
 ### Easy 5.3.1 DN
 
-#### Exercise 6 DN
 
 ```{r D6}
 quiz(
@@ -1374,7 +1356,7 @@ quiz(
 )
 ```
 
-#### Exercise 7 DN  
+
 
 ```{r D7}
 quiz(
@@ -1407,14 +1389,13 @@ gradethis::grade_code()
 
 
 ### 5.3.1 Easy YY
-#### Exercise 1
+
 
 Run the code below and figure out what is printed.
 ```{r 153, exercise=TRUE, exercise.eval=TRUE}
 arrange(flights, dep_delay)
 ```
 
-#### Exercise 2  
 
 Use desc() to re-order by a column in descending order.
 ```{r 253, exercise=TRUE, exercise.eval=TRUE}
@@ -1445,7 +1426,6 @@ quiz(
 
 ### Intermediate 5.3.1 DN  
 
-#### Exercise 17 DN 
 
 Refer to flights dataset.
 Arrange flights based on descending dep_delay  
@@ -1466,7 +1446,6 @@ arrange(flights, desc(dep_delay))
 gradethis::grade_this_code()
 ```
 
-#### Exercise 18 DN 
 
 Refer to flights dataset.
 Arrange flights based on ascending distance
@@ -1506,7 +1485,7 @@ gradethis::grade_code()
 
 
 ### 5.3.1 Intermediate YY
-#### Exercise 3
+
 
 Find the fastest flight on March 5 2013.
 ```{r 353, exercise=TRUE, exercise.eval=TRUE}
@@ -1515,7 +1494,7 @@ Find the fastest flight on March 5 2013.
 ```{r 353-hint-1}
 "You can use asc()"
 ```
-#### Exercise 4
+
 
 ```{r quiz153}
 question("Missing values always appear where in a sort? (you can use head() and tail() to check) ",
@@ -1601,7 +1580,6 @@ gradethis::grade_this_code()
 
 ### Easy 5.4.1 DN  
 
-#### Exercise 8 DN  
 
 Refer to flights dataset.
 Rename the air_time column to airtime 
@@ -1646,7 +1624,6 @@ gradethis::grade_code()
 
 
 ### 5.4.1 Easy YY
-#### Exercise 1
 
 Run ?select() to understand it.
 ```{r 154, exercise=TRUE, exercise.eval=TRUE}
@@ -1672,7 +1649,6 @@ quiz(
 
 ### Intermediate 5.4.1 DN  
 
-#### Exercise 19 DN 
 
 Refer to flights dataset.
 Select all columns except year, month, day column  
@@ -1734,7 +1710,6 @@ gradethis::grade_this_code()
 
 ### Advanced 5.4.1 DN  
 
-#### Exercise 26 DN 
 Refer to flights dataset.
 Select all columns not containing the word "time"
 
@@ -1776,7 +1751,7 @@ gradethis::grade_code()
 
 
 ### 5.4.1 Challenging  YY
-#### Exercise 3
+
 
 Select the variables called "day" and "dep_delay" using starts_with(), ends_with(), contains().
 The argument of each function must be one letter
@@ -1806,7 +1781,7 @@ Find the 5 flights with the shortest time taken.
 
 ### Easy 5.5.2 DN
 
-#### Exercise 9 DN
+
 
 Experiment with these to understand the parameters .before and .after
 
@@ -1829,7 +1804,6 @@ quiz(
 )
 ```
 
-#### Exercise 10 DN 
 
 ```{r D10}
 quiz(
@@ -1852,7 +1826,7 @@ quiz(
 )
 
 ```
-#### Exercise 11 
+
 In preparation for the next question, obtain the column names for the flights dataset.
 ```{r w1_5, exercise=TRUE }
  
@@ -1882,9 +1856,6 @@ quiz(
 
 ```
 
-
-
-#### Exercise 27 DN
 
 Make a new column in the flights dataset called speed where speed = distance/air_time. Arrange flights based on descending speed
 ```{r D27, exercise=TRUE}
@@ -1922,14 +1893,14 @@ question("what would the following code ``1504 %/% 100`` give. Note to get help 
 
 
 ### 5.5.2  Easy YY
-##### Exercise 1
+
 
 Run the code below and figure out what is mutate(). Don't forget to remove the quotation marks.
 ```{r 155, exercise=TRUE, exercise.eval=TRUE}
 "?mutate"
 ```
 
-#### Exercise 2  
+
 
 ```{r quiz155}
 question("There are two functions that are useful for time based data: lag() and lead(). They are useful for comparing values behind or ahead of the current values, lag() pushing the data \"back\" and lead() pushing it \"forward\". If x <- 2:7, what is lag(x)?",
@@ -1952,7 +1923,7 @@ Make a new variable called speed using the mutate function.
 
 ### Intermediate 5.5.2 DN
 
-#### Exercise 20 DN  
+
 
 Refer to flights dataset.
 Add a new column called air_time_hours by converting air_time from minutes to hours
@@ -1993,8 +1964,6 @@ mutate(flights, air_time_hours = air_time%/%60)
 gradethis::grade_this_code()
 ```
 
-#### Exercise 21 DN  
-
 Refer to flights dataset.
 Add a new column called distance_km by converting distance from miles to km (1 mile = 1.61 km)  
 
@@ -2028,7 +1997,7 @@ question(" what does the following give us 1:3 + 1:10",
 
 
 ### 5.5.2  Intermediate YY
-#### Exercise 3
+
 
 Add new varible named "gain"
 gain = dep_delay - arr_delay
@@ -2045,7 +2014,7 @@ mutate(flights,
 ```{r 355-check}
 gradethis::grade_code()
 ```
-#### Exercise 4
+
 
 ```{r 2quiz55}
 question("Choose the best answer. transmute",
@@ -2080,7 +2049,6 @@ gradethis::grade_this_code()
 
 ### Advanced 5.5.2 DN  
 
-#### Exercise 28 DN   
 
 Refer to flights dataset.
 Rank the 10 fastest flights and 10 slowest flights  
@@ -2137,7 +2105,7 @@ gradethis::grade_code()
 
 
 ### 5.5.2  Challenging  YY
-#### Exercise 5
+
 
 Order "flights" by year,month and day.
 Then, create new variable that represents cumulative sum of  distance.
@@ -2168,7 +2136,7 @@ flights
 
 ### Easy 5.6.7 DN  
 
-#### Exercise 11 DN  
+
 Refer to flights dataset.
 Find the mean air time for each month
 
@@ -2204,7 +2172,7 @@ question("which delay may prove costlier to customer?",
 
 
 ### 5.6.7  Easy YY
-#### Exercise 1
+
 In this execise, we will use sumarize(). Run the code below to leanrn summrize() (remove the quotation marks)
 ```{r 1, exercise=TRUE, exercise.eval=TRUE}
 "?summarise()"
@@ -2239,7 +2207,6 @@ gradethis::grade_this_code()
 
 ### Intermediate 5.6.7 DN  
 
-#### Exercise 22 DN  
 
 Refer to flights dataset.
 Find the median air time for each day of the year
@@ -2308,7 +2275,7 @@ gradethis::grade_code()
 
 
 ### 5.6.7  Intermediate YY
-#### Exercise 2
+
 
 ```{r quiz}
 question("summarise() needs another function to be available. what is it?",
@@ -2359,7 +2326,6 @@ gradethis::grade_this_code()
 
 ### Advanced 5.6.7 DN  
 
-#### Exercise 29 (5.6.7)  
 
 Refer to flights dataset.
 Find the first departure and last arrival for each day of the year, and plot the following graph  
@@ -2431,7 +2397,7 @@ question("Which hour of the day has the least average arrival delays?",
 ```
 
 ### 5.6.7  Challenging  YY
-#### Exercise 3
+
 The code below attempts to obtain the mean for arr_delay per year, month and day.
 However it is not working. 
 Modify the code to show the mean of arr_delay per year, month and day.
