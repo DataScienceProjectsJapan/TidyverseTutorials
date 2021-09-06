@@ -34,5 +34,15 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Suggests: 
-    learnr
+Imports: 
+    dplyr,
+    ggplot2,
+    gradethis (>= 0.2.3.9001),
+    learnr,
+    nycflights13,
+    plot3D,
+    tibble
+Remotes: 
+    rstudio-education/gradethis
+Depends: 
+    tidyverse
