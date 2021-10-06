@@ -43,7 +43,7 @@ Imports:
     plot3D,
     tibble
 Remotes:
-    rstudio/gradethis
+    rstudio/gradethis,
     rstudio/learnr
 Depends: 
     tidyverse
