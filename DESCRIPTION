@@ -42,7 +42,8 @@ Imports:
     nycflights13,
     plot3D,
     tibble
-Remotes: 
-    rstudio-education/gradethis
+Remotes:
+    rstudio/gradethis
+    rstudio/learnr
 Depends: 
     tidyverse

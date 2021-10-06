@@ -61,3 +61,12 @@ usethis::use_package("nycflights13")
 usethis::use_package("nycflights13")
 
 usethis::use_package("plot3D")
+
+
+# Instructions for installation
+# devtools::install_github("DataScienceProjectsJapan/TidyverseTutorials")
+# learnr::run_tutorial("learnrexs", "TidyverseTutorials")
+# available_tutorials("learnr")
+# library(learnr)
+# library(gradethis)
+# devtools::install_github("DataScienceProjectsJapan/TidyverseTutorials")
